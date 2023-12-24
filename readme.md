@@ -27,10 +27,10 @@ or
 
 ### api:
 
-GET http://localhost:8080/transactions/<address>
+GET http://localhost:8080/transactions/{address}
 list of transactions for the address (first 50)
 
-POST http://localhost:8080/transactions/:address
+POST http://localhost:8080/transactions/{address}
 initializes a background sync of transactions (first 2 pages)
 
 
