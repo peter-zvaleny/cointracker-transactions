@@ -11,8 +11,7 @@ import java.util.stream.Collectors;
 public class BlockchainClient {
 
   private static final String URL = "https://blockchain.info";
-  private static final String RAWADDR_TEMPLATE = URL + "/rawaddr/{address}?limit=5&offset={offset}";
-  // todo remove limit
+  private static final String RAWADDR_TEMPLATE = URL + "/rawaddr/{address}?limit=50&offset={offset}";
 
   private final RestTemplate restTemplate;
 
